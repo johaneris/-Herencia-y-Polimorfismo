@@ -16,7 +16,7 @@ public class Camion extends Vehiculo implements Combustible {
             return toString() + " no puede moverse: sin combustible.";
         }
         nivelCombustible = Math.max(0, nivelCombustible - 1.5);
-        return toString() + " avnzando...";
+        return toString() + " avanza...";
     }
 
     @Override

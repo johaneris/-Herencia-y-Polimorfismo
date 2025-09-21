@@ -8,7 +8,7 @@ public class Moto extends Vehiculo {
 
     @Override
     public String mover() {
-        return toString() + "avanza...";
+        return toString() + "no avanza...";
     }
 
 

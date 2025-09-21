@@ -8,7 +8,6 @@ public class Carro extends Vehiculo implements Combustible {
     public Carro(String marca, String modelo, double capacidadTanque) {
         super(marca, modelo);
         this.capacidadTanque = capacidadTanque;
-
     }
 
     @Override
@@ -18,7 +17,7 @@ public class Carro extends Vehiculo implements Combustible {
         }
         // Consumo simple de demostración
         nivelDeCombustible = Math.max(0, nivelDeCombustible - 0.5);
-        return toString() + " avanza";
+        return toString() + " avanza...";
     }
 
     @Override
